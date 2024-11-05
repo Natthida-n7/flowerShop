@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ณัฐธิดา ร้านขายดอกไม้</title>
+    <style>
+        /* การตั้งค่าโดยรวมของหน้า */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* ส่วนของ header */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        /* การจัดการเมนู */
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* ส่วนของเนื้อหาหลัก */
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .flower {
+            background-color: white;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s ease;
+        }
+
+        .flower img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .flower h3 {
+            color: #333;
+        }
+
+        .flower p {
+            color: #777;
+            font-size: 14px;
+            margin: 10px 0;
+        }
+
+        .flower .price {
+            color: #e91e63;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .flower:hover {
+            transform: scale(1.05);
+        }
+
+        /* ส่วนของ Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* ปรับขนาดของข้อความในฟอร์ม */
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>ณัฐธิดา ร้านขายดอกไม้</h1>
+        <p></p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#brand1">หน้าแรก</a>
+        <a href="#brand2">เกี่ยวกับเรา</a>
+        <a href="#brand3">สินค้า</a>
+        <a href="#brand4">ติดต่อเรา</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- สินค้าชิ้นที่ 1 -->
+        <div class="flower">
+            <img src="img/roed.jpg" alt="ดอกกุหลาบ">
+            <h3>ดอกกุหลาบ</h3>
+            <p>ดอกกุหลาบสีแดงสด สัญลักษณ์แห่งความรัก</p>
+           
+        </div>
+
+        <!-- สินค้าชิ้นที่ 2 -->
+        <div class="flower">
+            <img src="img/tulips.jpg" alt="ดอกทิวลิป">
+            <h3>ดอกทิวลิป</h3>
+            <p>ดอกทิวลิปสีสดใส เหมาะสำหรับทุกโอกาส</p>
+           
+        </div>
+
+        <!-- สินค้าชิ้นที่ 3 -->
+        <div class="flower">
+            <img src="img/mali.jpg" alt="ดอกมะลิ">
+            <h3>ดอกมะลิ</h3>
+            <p>ดอกมะลิหอมหวาน ให้กลิ่นหอมเย็นสบาย</p>
+            
+        </div>
+
+        <!-- สินค้าชิ้นที่ 4 -->
+        <div class="flower">
+            <img src="img/kamallie.jpg" alt="ดอกคาเมลเลีย">
+            <h3>ดอกคาเมลเลีย</h3>
+            <p>ดอกไม้ที่มีความงามโดดเด่น สีสันสดใส</p>
+           
+        </div>
+
+        <!-- สินค้าชิ้นที่ 5 -->
+        <div class="flower">
+            <img src="img/bayjamas.jpg" alt="ดอกเบญจมาศ">
+            <h3>ดอกเบญจมาศ</h3>
+            <p>ดอกเบญจมาศสวยงาม สีสันสดใส</p>
+            
+        </div>
+
+        <!-- สินค้าชิ้นที่ 6 -->
+        <div class="flower">
+            <img src="img/bu.jpg" alt="ดอกบัว">
+            <h3>ดอกบัว</h3>
+            <p>ดอกบัวสีขาวสะอาด สัญลักษณ์แห่งความบริสุทธิ์</p>
+            
+        </div>
+
+        <!-- สินค้าชิ้นที่ 7 -->
+        <div class="flower">
+            <img src="img/tantawan.jpg" alt="ดอกทานตะวัน">
+            <h3>ดอกทานตะวัน</h3>
+            <p>ดอกทานตะวันสีเหลืองสดใส เต็มไปด้วยพลังบวก</p>
+            
+        </div>
+
+        <!-- สินค้าชิ้นที่ 8 -->
+        <div class="flower">
+            <img src="img/hidarnyee.jpg" alt="ดอกไฮเดรนเยีย">
+            <h3>ดอกไฮเดรนเยีย</h3>
+            <p>ดอกไฮเดรนเยียสีฟ้า สัญลักษณ์แห่งความซื่อสัตย์</p>
+            
+        </div>
+
+        <!-- สินค้าชิ้นที่ 9 -->
+        <div class="flower">
+            <img src="img/kulymiy.jpg" alt="ดอกกล้วยไม้">
+            <h3>ดอกกล้วยไม้</h3>
+            <p>ดอกกล้วยไม้สีม่วงสวยงาม และทนทาน</p>
+            
+        </div>
+
+        <!-- สินค้าชิ้นที่ 10 -->
+        <div class="flower">
+            <img src="img/lille.jpg" alt="ดอกลิลลี่">
+            <h3>ดอกลิลลี่</h3>
+            <p>ดอกลิลลี่สีขาวหรูหรา มีเสน่ห์เฉพาะตัว</p>
+            
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 ณัฐธิดา ร้านขายดอกไม้ | ติดต่อเรา Natthida@flowerShop</p>
+    </footer>
+
+</body>
+</html>
